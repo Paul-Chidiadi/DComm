@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAUL-DAPP STORE</title>
+
+    <!--MAin CSS file-->
+    <link rel="stylesheet" href="style.css" />
+    <!--BOXICONS CSS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <nav class="navbar" id="navbar">
+        <a href="index.html">
+          <img class="logo" src="images/coin.png" alt="" />
+          PAUL-DAPP STORE
+        </a>
+        <div class="search">
+          <input
+            type="text"
+            class="text"
+            id="type"
+            placeholder="&#128269; Search Products and Categories"
+          />
+          <input type="button" id="searchBtn" class="btn" value="SEARCH" />
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="col one">
+        <h1 class="big">
+          Buy and Sell Affordable <br />
+          <span>ACCESSORIES</span> from Our
+          <br />
+          blockchain Online Store.
+        </h1>
+        <small>
+          Our collection of super stylish accessories are designed to fit your
+          unique <br />
+          needs. Shop now and see the world in a whole new way.
+        </small>
+        <a class="btn" href="#">SHOP NOW</a>
+      </div>
+      <div class="col">
+        <div>
+          <!-- hero image here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR PRODUCT SECTION -->
+    <section class="stock">
+      <section class="collection">
+        <h4>Stock Available</h4>
+        <div id="productList" class="prod">
+          <!-- PRODUCTS WILL DYNAMICALLY APPEAR HERE -->
+          <div class="set">
+            <div class="image">
+              <img src="images/sun.png" alt="" />
+            </div>
+            <div class="name">
+              <p>Glasses</p>
+              <img src="images/love.png" alt="" />
+            </div>
+            <small>$10</small>
+            <section>
+              <a href="#">BUY NOW</a>
+            </section>
+          </div>
+        </div>
+        <!-- <a href="#" class="see">See More</a> -->
+      </section>
+
+      <section class="collection">
+        <h4>Sold Outs</h4>
+        <div id="soldProductList" class="prod">
+          <!-- PRODUCTS WILL DYNAMICALLY APPEAR HERE -->
+          <div class="set">
+            <div class="image">
+              <img src="images/sun.png" alt="" />
+            </div>
+            <div class="name">
+              <p>Glasses</p>
+              <img src="images/love.png" alt="" />
+            </div>
+            <small>$10</small>
+            <h6>0x8E742270ca2c762fA73bc79EfF54732F3e8964fC</h6>
+          </div>
+        </div>
+        <!-- <a href="#" class="see">See More</a> -->
+      </section>
+    </section>
+
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
